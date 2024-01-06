@@ -399,6 +399,7 @@ local signs = {
   DapBreakpointCondition = { text = "C", texthl = "SignColumn", linehl = "", numhl = "" },
   DapBreakpointRejected = { text = 'R', texthl = "SignColumn", linehl = '', numhl = '' },
   DapLogPoint = { text = 'L', texthl = "SignColumn", linehl = '', numhl = '' },
+  DapBreakpointHitCondition = { text = 'H', texthl = '', linehl = '', numhl = '' },
   DapStopped = { text = '→', texthl = "SignColumn", linehl = 'debugPC', numhl = '' },
 }
 
